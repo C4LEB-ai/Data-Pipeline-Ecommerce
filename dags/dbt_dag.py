@@ -11,13 +11,13 @@ profile_config = ProfileConfig(
     profile_mapping=SnowflakeUserPasswordProfileMapping(
         conn_id="snow_connection", 
         profile_args={
-            "account": "NMNTUTW-OX01383",
+            "account": "",
             "user": "C4LEB",
-            "role": "DBT_ROLE",
-            "password": "closed$50K2025",
-            "warehouse": "DBT_WH",
-            "database": "DBT_DB",
-            "schema": "DBT_SCHEMA"
+            "role": "",
+            "password": "",
+            "warehouse": "",
+            "database": "",
+            "schema": ""
             },
     )
 )
